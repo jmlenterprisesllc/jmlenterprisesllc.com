@@ -224,6 +224,7 @@
       border-radius:2px; padding:52px 44px;
       position:relative; overflow:hidden;
       transition:border-color 0.45s, transform 0.45s;
+      display:flex; flex-direction:column;
     }
     .brand-card::before {
       content:''; position:absolute;
@@ -246,7 +247,7 @@
       position:absolute; top:20px; right:28px; line-height:1;
     }
     .brand-tag {
-      display:inline-block;
+      display:inline-block; align-self:flex-start;
       font-size:9px; letter-spacing:3px;
       color:var(--gold); text-transform:uppercase;
       border:1px solid var(--gold-border);
@@ -259,7 +260,7 @@
       margin-bottom:16px; letter-spacing:-0.5px;
     }
     .brand-desc {
-      font-size:13px; color:var(--muted); line-height:1.85; margin-bottom:32px;
+      font-size:13px; color:var(--muted); line-height:1.85; margin-bottom:32px; flex:1;
     }
     .brand-meta {
       display:flex; flex-direction:column; gap:10px;
@@ -471,6 +472,7 @@
       <div class="brand-meta">
         <div class="meta-row"><span class="meta-k">Category</span><span class="meta-v">Menswear · Retail · Wholesale</span></div>
         <div class="meta-row"><span class="meta-k">Channels</span><span class="meta-v">Depop · Grailed · eBay · ATL Popups</span></div>
+        <div class="meta-row"><span class="meta-k">Partners</span><span class="meta-v">LA Apparel · KB Ethos · The Brand Collector · GVG Events</span></div>
         <div class="meta-row"><span class="meta-k">Website</span><span class="meta-v"><a href="https://www.depop.com/atlantajake/" target="_blank" style="color:var(--gold);text-decoration:none;border-bottom:1px solid var(--gold-border);">atlantajake.shop</a></span></div>
       </div>
     </div>
