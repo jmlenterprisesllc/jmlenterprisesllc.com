@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About JML Enterprises LLC — Vintage, Designer &amp; Streetwear Sourcing | Atlanta, GA</title>
+  <meta name="description" content="JML Enterprises LLC is a multi-brand holding company operating out of Atlanta, GA and Minneapolis, MN. Home of AtlantaJake, a vintage, Japanese designer and deadstock luxury menswear operation sourcing from the US, Europe and Japan. Wholesale vintage tee lots from 10 to 500 pieces, free shipping, next business day dispatch.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://jmlenterprisesllc.com/about/">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://jmlenterprisesllc.com/about/">
+  <meta property="og:site_name" content="JML Enterprises LLC">
+  <meta property="og:title" content="About JML Enterprises LLC">
+  <meta property="og:description" content="Multi-brand holding company based in Atlanta, GA and Minneapolis, MN. Vintage, Japanese designer and deadstock luxury menswear. Wholesale accounts available.">
+  <meta property="og:locale" content="en_US">
+
+  <meta name="geo.region" content="US-GA">
+  <meta name="geo.placename" content="Atlanta, Georgia">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Karla:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "AboutPage",
+    "url": "https://jmlenterprisesllc.com/about/",
+    "mainEntity": {
+      "@type": "Organization",
+      "name": "JML Enterprises LLC",
+      "url": "https://jmlenterprisesllc.com",
+      "foundingDate": "2021",
+      "description": "Multi-brand holding company based in Atlanta, GA and Minneapolis, MN. Operates AtlantaJake, a vintage, Japanese designer and deadstock luxury menswear brand, and isellleds, a specialized automotive lighting retailer. Wholesale accounts and dealer programs available.",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Atlanta",
+        "addressRegion": "GA",
+        "addressCountry": "US"
+      },
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "email": "sales@jmlenterprises.com",
+        "contactType": "sales"
+      },
+      "areaServed": "US",
+      "sameAs": [
+        "https://www.depop.com/atlantajake/",
+        "https://www.ebay.com/usr/isellleds"
+      ]
+    }
+  }
+  </script>
+
+  <style>
+    /* ════════════════════════════════════════════════════
+       Shared tokens + nav + footer, copied from index.html.
+       ════════════════════════════════════════════════════ */
+    :root {
+      --bg:           #06060A;
+      --surface:      #0E0E16;
+      --gold:         #C9A84C;
+      --gold-dim:     rgba(201,168,76,0.08);
+      --gold-border:  rgba(201,168,76,0.28);
+      --text:         #F0EDE8;
+      --muted:        #8A8880;
+      --faint:        #4A4A46;
+      --border:       rgba(255,255,255,0.06);
+    }
+    *, *::before, *::after { margin:0; padding:0; box-sizing:border-box; }
+    html { scroll-behavior:smooth; }
+    body {
+      background:var(--bg); color:var(--text);
+      font-family:'Karla',sans-serif; font-weight:300;
+      line-height:1.7; overflow-x:hidden;
+    }
+
+    /* ── NAV ── */
+    nav {
+      position:fixed; top:0; left:0; right:0; z-index:100;
+      padding:26px 64px;
+      display:flex; justify-content:space-between; align-items:center;
+      border-bottom:1px solid transparent;
+      transition:all 0.5s ease; overflow:hidden;
+    }
+    nav.scrolled {
+      background:rgba(6,6,10,0.96);
+      border-bottom-color:var(--border);
+      backdrop-filter:blur(24px); padding:18px 64px;
+    }
+    .nav-location {
+      position:absolute; left:50%; transform:translateX(-50%);
+      font-size:9px; letter-spacing:4px;
+      color:var(--gold); text-transform:uppercase;
+      transition:opacity 0.5s ease; white-space:nowrap;
+    }
+    nav.scrolled .nav-location { opacity:0; pointer-events:none; }
+    .nav-logo {
+      font-family:'Cormorant Garamond',serif;
+      font-size:18px; font-weight:600;
+      letter-spacing:5px; text-transform:uppercase;
+      color:var(--text); text-decoration:none;
+    }
+    .nav-logo span { color:var(--gold); margin:0 6px; }
+    .nav-links { display:flex; gap:36px; list-style:none; }
+    .nav-links a {
+      color:var(--muted); text-decoration:none;
+      font-size:13px; font-weight:500;
+      letter-spacing:1.8px; text-transform:uppercase;
+      transition:color 0.3s;
+    }
+    .nav-links a:hover,
+    .nav-links a[aria-current] { color:var(--gold); }
+
+    /* ── FOOTER ── */
+    footer {
+      padding:36px 64px;
+      display:flex; justify-content:space-between; align-items:center;
+      border-top:1px solid var(--border);
+    }
+    .f-logo {
+      font-family:'Cormorant Garamond',serif;
+      font-size:13px; font-weight:600;
+      letter-spacing:4px; color:var(--faint); text-transform:uppercase;
+    }
+    .f-copy { font-size:10px; color:var(--faint); }
+    .f-nav { display:flex; gap:28px; }
+    .f-nav a {
+      font-size:9px; letter-spacing:2px;
+      color:var(--faint); text-decoration:none; text-transform:uppercase;
+      transition:color 0.3s;
+    }
+    .f-nav a:hover { color:var(--gold); }
+
+    .fade-in { opacity:0; transform:translateY(28px); transition:opacity 0.85s ease, transform 0.85s ease; }
+    .fade-in.visible { opacity:1; transform:translateY(0); }
+
+    .eyebrow {
+      font-size:10px; letter-spacing:4px;
+      color:var(--gold); text-transform:uppercase;
+      margin-bottom:14px;
+    }
+
+    /* ════════════════════════════════════════════════════
+       PAGE STYLES
+       ════════════════════════════════════════════════════ */
+    .wrap { max-width:1240px; margin:0 auto; padding:0 64px; }
+    .measure { max-width:680px; }
+    .measure p { font-size:14px; color:var(--muted); line-height:1.95; margin-bottom:16px; }
+    .measure p strong { color:var(--text); font-weight:500; }
+
+    .masthead { padding-top:180px; }
+    .masthead h1 {
+      font-family:'Cormorant Garamond',serif;
+      font-size:clamp(40px,6.5vw,66px);
+      font-weight:300; line-height:1.04;
+      margin-bottom:20px;
+    }
+    .masthead h1 em { font-style:italic; color:var(--gold); }
+    .standfirst {
+      font-size:10px; letter-spacing:3px;
+      text-transform:uppercase; color:var(--muted);
+      margin-bottom:44px;
+    }
+    .standfirst span { color:var(--faint); margin:0 10px; }
+
+    .block { padding-top:78px; }
+    .block-head {
+      font-size:10px; letter-spacing:4px;
+      text-transform:uppercase; color:var(--gold);
+      font-weight:400;
+      padding-bottom:14px; margin-bottom:28px;
+      border-bottom:1px solid var(--border);
+    }
+    .block h3 {
+      font-family:'Cormorant Garamond',serif;
+      font-size:24px; font-weight:300;
+      margin:34px 0 12px; letter-spacing:0.5px;
+    }
+
+    .rule-list { list-style:none; max-width:680px; }
+    .rule-list li {
+      position:relative; padding-left:28px; margin-bottom:14px;
+      font-size:14px; color:var(--muted); line-height:1.9;
+    }
+    .rule-list li::before {
+      content:""; position:absolute; left:0; top:0.9em;
+      width:14px; height:1px; background:var(--gold-border);
+    }
+    .rule-list strong { color:var(--text); font-weight:500; }
+
+    /* wholesale tiers */
+    .tiers { display:grid; grid-template-columns:repeat(5,1fr); gap:12px; margin-top:8px; }
+    .tier {
+      background:var(--surface); border:1px solid var(--border);
+      border-radius:2px; padding:26px 22px;
+      transition:border-color 0.4s, transform 0.4s;
+    }
+    .tier:hover { border-color:var(--gold-border); transform:translateY(-4px); }
+    .tier-count {
+      font-family:'Cormorant Garamond',serif;
+      font-size:38px; font-weight:300; color:var(--gold); line-height:1;
+    }
+    .tier-lbl {
+      font-size:9px; letter-spacing:2px; color:var(--faint);
+      text-transform:uppercase; margin:8px 0 12px;
+    }
+    .tier-price { font-size:21px; font-weight:500; color:var(--text); line-height:1; }
+    .tier-price span { font-size:11px; font-weight:300; color:var(--muted); }
+    .tier-total {
+      font-size:10px; letter-spacing:1px; color:var(--faint);
+      text-transform:uppercase; margin:7px 0 14px;
+    }
+    .tier-note { font-size:12px; color:var(--muted); line-height:1.75; }
+
+    /* facts */
+    .facts { max-width:680px; margin-top:6px; }
+    .fact-row {
+      display:flex; justify-content:space-between; align-items:baseline;
+      gap:24px; padding:15px 0; border-bottom:1px solid var(--border);
+    }
+    .fact-k {
+      font-size:9px; letter-spacing:2px; color:var(--faint);
+      text-transform:uppercase; flex:0 0 auto;
+    }
+    .fact-v { font-size:12px; color:var(--muted); text-align:right; }
+
+    /* CTA bar — mirrors .wholesale on index.html */
+    .cta {
+      background:var(--gold-dim);
+      border-top:1px solid var(--gold-border);
+      border-bottom:1px solid var(--gold-border);
+      padding:44px 64px; margin-top:96px;
+      display:flex; justify-content:space-between; align-items:center; gap:24px;
+    }
+    .cta p {
+      font-family:'Cormorant Garamond',serif;
+      font-size:22px; font-weight:300; font-style:italic; color:var(--text);
+    }
+    .cta a {
+      white-space:nowrap; flex-shrink:0;
+      border:1px solid var(--gold); color:var(--gold); text-decoration:none;
+      font-size:10px; letter-spacing:3px; text-transform:uppercase;
+      padding:13px 30px; transition:all 0.3s;
+    }
+    .cta a:hover { background:var(--gold); color:var(--bg); }
+
+    .ship-band {
+      display:flex; align-items:center; gap:14px;
+      margin-top:26px; padding:16px 20px;
+      background:var(--gold-dim); border:1px solid var(--gold-border); border-radius:2px;
+      max-width:680px;
+    }
+    .ship-band strong {
+      font-size:10px; letter-spacing:2px; text-transform:uppercase;
+      color:var(--gold); font-weight:500; white-space:nowrap;
+    }
+    .ship-band span { font-size:13px; color:var(--muted); }
+
+    .tail { padding:70px 0 110px; }
+
+    @media (max-width:960px) {
+      nav, nav.scrolled { padding:16px 20px; }
+      .nav-links, .nav-location { display:none; }
+      .nav-logo { font-size:13px; letter-spacing:3px; }
+      .wrap { padding:0 28px; }
+      .masthead { padding-top:120px; }
+      .block { padding-top:56px; }
+      .tiers { grid-template-columns:repeat(3,1fr); }
+      .cta { flex-direction:column; text-align:center; padding:40px 28px; margin-top:64px; }
+      .tail { padding:52px 0 80px; }
+      footer { flex-direction:column; gap:16px; text-align:center; padding:28px; }
+    }
+    @media (max-width:700px) {
+      .tiers { grid-template-columns:repeat(2,1fr); }
+      .ship-band { flex-direction:column; align-items:flex-start; gap:8px; }
+    }
+    @media (max-width:520px) {
+      .tiers { grid-template-columns:1fr; }
+      .fact-row { flex-direction:column; gap:5px; align-items:flex-start; }
+      .fact-v { text-align:left; }
+    }
+  </style>
+
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-D07PP0FX72"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-D07PP0FX72');
+  </script>
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="shortcut icon" href="/favicon.svg">
+</head>
+<body>
+
+<!-- NAV -->
+<nav id="nav">
+  <a href="/" class="nav-logo">JML <span>·</span> Enterprises</a>
+  <p class="nav-location">Atlanta &nbsp;·&nbsp; Minneapolis &nbsp;·&nbsp; USA</p>
+  <ul class="nav-links">
+    <li><a href="/about/" aria-current="page">About</a></li>
+    <li><a href="/#brands">Brands</a></li>
+    <li><a href="/#contact">Contact</a></li>
+  </ul>
+</nav>
+
+<!-- MASTHEAD -->
+<section class="wrap masthead">
+  <p class="eyebrow">About</p>
+  <h1>We buy, grade, and move<br><em>hard to find</em> inventory.</h1>
+  <p class="standfirst">Established 2021<span>·</span>Atlanta, GA<span>·</span>Minneapolis, MN</p>
+
+  <div class="measure">
+    <p>JML Enterprises LLC is a multi-brand holding company operating out of Atlanta, Georgia and Minneapolis, Minnesota. We run each brand independently, with its own sourcing, its own channels, and its own buyers.</p>
+    <p>Our largest operation is <strong>AtlantaJake</strong>, a vintage, Japanese designer, and deadstock luxury menswear business. Alongside it we run <strong>isellleds</strong>, a specialized automotive lighting retailer working inside authorized dealer networks.</p>
+    <p>This page is written for the people who need to know whether we are a real operation before they ship us goods or buy a pallet from us. If that is you, everything below is the short version. Everything else is a conversation.</p>
+  </div>
+</section>
+
+<!-- HOW WE OPERATE -->
+<section class="wrap block fade-in">
+  <h2 class="block-head">How We Operate</h2>
+  <div class="measure">
+    <p>We are a buying and grading operation before we are a retailer. Inventory comes in by the container and the case, gets sorted, authenticated, photographed, and then goes out through whichever channel fits the piece.</p>
+    <p>A single item might sell retail on Depop, at a higher price on Grailed, or move as part of a hundred-piece wholesale bundle, depending on what it is and who is asking. That flexibility is the point. It means we can take large mixed lots that a single-channel seller has to pass on.</p>
+  </div>
+</section>
+
+<!-- SOURCING -->
+<section class="wrap block fade-in">
+  <h2 class="block-head">Sourcing</h2>
+  <div class="measure">
+    <p>We source from the United States, Europe, and Japan, with wholesale shipments arriving on a quarterly cycle. The Japanese pipeline is the one most US sellers do not have, and it is where the pieces our buyers actually chase come from.</p>
+  </div>
+
+  <h3>What we look for</h3>
+  <ul class="rule-list">
+    <li><strong>Japanese designer and streetwear.</strong> Undercover, Kapital, Needles, Comme des Garçons, Number (N)ine, Hysteric Glamour, Bape, Visvim, WTAPS, Neighborhood.</li>
+    <li><strong>Pre-owned and deadstock luxury.</strong> European houses and archive-tier designer, condition permitting.</li>
+    <li><strong>American vintage.</strong> Polo Ralph Lauren, Levi's, Carhartt, Champion, Harley Davidson, nineties graphic and sportswear.</li>
+    <li><strong>Mixed lots.</strong> We buy unsorted. Sorting is our job, not yours.</li>
+  </ul>
+
+  <div class="measure" style="margin-top:26px;">
+    <p>If you are a supplier holding volume in any of the above, we buy outright and we do not ask you to grade it first.</p>
+  </div>
+</section>
+
+<!-- STANDARDS -->
+<section class="wrap block fade-in">
+  <h2 class="block-head">Standards</h2>
+  <ul class="rule-list">
+    <li><strong>Authentication.</strong> Every designer and luxury piece is checked before it is listed or bundled. We do not pass questionable goods downstream.</li>
+    <li><strong>Photography in house.</strong> Professional studio setup, shot in monthly batches, multiple angles and detail shots per item. No stock photos, no borrowed listings.</li>
+    <li><strong>Honest condition grading.</strong> Flaws are photographed and stated. A buyer who trusts the grade buys again.</li>
+    <li><strong>Consistent listing data.</strong> Brand, era, measurements, and construction details recorded at intake, not guessed at later.</li>
+  </ul>
+</section>
+
+<!-- WHOLESALE -->
+<section class="wrap block fade-in">
+  <h2 class="block-head">Wholesale</h2>
+  <div class="measure" style="margin-bottom:28px;">
+    <p>We sell mixed vintage tee lots to shops, market vendors, and resellers. Every piece is hand-sorted for resale quality before it ships. No rags, no filler.</p>
+  </div>
+
+  <div class="tiers">
+    <div class="tier">
+      <div class="tier-count">10</div>
+      <div class="tier-lbl">Pieces</div>
+      <div class="tier-price">$9.90<span>/pc</span></div>
+      <div class="tier-total">$99 the lot</div>
+      <p class="tier-note">Starter lot. Test the mix before you commit to volume.</p>
+    </div>
+    <div class="tier">
+      <div class="tier-count">50</div>
+      <div class="tier-lbl">Pieces</div>
+      <div class="tier-price">$9.50<span>/pc</span></div>
+      <div class="tier-total">$475 the lot</div>
+      <p class="tier-note">Enough to stock a market booth or fill a rack.</p>
+    </div>
+    <div class="tier">
+      <div class="tier-count">100</div>
+      <div class="tier-lbl">Pieces</div>
+      <div class="tier-price">$8.95<span>/pc</span></div>
+      <div class="tier-total">$895 the lot</div>
+      <p class="tier-note">Standard shop refresh. Our most common repeat order.</p>
+    </div>
+    <div class="tier">
+      <div class="tier-count">250</div>
+      <div class="tier-lbl">Pieces</div>
+      <div class="tier-price">$8.50<span>/pc</span></div>
+      <div class="tier-total">$2,125 the lot</div>
+      <p class="tier-note">Ships multi-box. Roughly 125 lbs across the shipment.</p>
+    </div>
+    <div class="tier">
+      <div class="tier-count">500</div>
+      <div class="tier-lbl">Pieces</div>
+      <div class="tier-price">$7.95<span>/pc</span></div>
+      <div class="tier-total">$3,975 the lot</div>
+      <p class="tier-note">Ships as freight. Roughly 250 lbs on a pallet.</p>
+    </div>
+  </div>
+
+  <div class="ship-band">
+    <strong>Free Shipping</strong>
+    <span>Every tier, shipped free and dispatched the next business day.</span>
+  </div>
+
+  <div class="measure" style="margin-top:28px;">
+    <p>Prices are per piece with shipping included. Lots are pre-picked from graded stock, and that is what holds the per-piece price where it is. If you need a lot weighted toward specific eras, categories, or brands, we build those to order and quote them separately.</p>
+    <p>The 500-piece lot moves as freight. Tell us if your delivery address needs a liftgate or a scheduled appointment and we will arrange it.</p>
+  </div>
+</section>
+
+<!-- CHANNELS -->
+<section class="wrap block fade-in">
+  <h2 class="block-head">Where We Sell</h2>
+  <ul class="rule-list">
+    <li><strong>Depop, eBay, and Grailed</strong> for retail, running concurrently rather than as a single storefront.</li>
+    <li><strong>Direct wholesale</strong> to shops, vendors, and resellers.</li>
+    <li><strong>Atlanta popup events</strong>, in person, several times a year.</li>
+    <li><strong>Dealer network channels</strong> on the automotive lighting side, through authorized distribution.</li>
+  </ul>
+</section>
+
+<!-- PARTNERS -->
+<section class="wrap block fade-in">
+  <h2 class="block-head">Who We Work With</h2>
+  <div class="measure">
+    <p><strong>AtlantaJake.</strong> LA Apparel, KB Ethos, The Brand Collector, GVG Events.</p>
+    <p><strong>isellleds.</strong> DLG, Z1, Sylvania, alongside Alpharex, Morimoto, Diode Dynamics and Oracle Lighting product.</p>
+  </div>
+</section>
+
+<!-- FACTS -->
+<section class="wrap block fade-in">
+  <h2 class="block-head">At a Glance</h2>
+  <div class="facts">
+    <div class="fact-row"><span class="fact-k">Legal Entity</span><span class="fact-v">JML Enterprises LLC</span></div>
+    <div class="fact-row"><span class="fact-k">Established</span><span class="fact-v">2021</span></div>
+    <div class="fact-row"><span class="fact-k">Locations</span><span class="fact-v">Atlanta, GA &amp; Minneapolis, MN</span></div>
+    <div class="fact-row"><span class="fact-k">Brands</span><span class="fact-v">AtlantaJake · isellleds</span></div>
+    <div class="fact-row"><span class="fact-k">Sourcing</span><span class="fact-v">United States · Europe · Japan</span></div>
+    <div class="fact-row"><span class="fact-k">Retail Channels</span><span class="fact-v">Depop · eBay · Grailed · ATL Popups</span></div>
+    <div class="fact-row"><span class="fact-k">Wholesale Tiers</span><span class="fact-v">10 · 50 · 100 · 250 · 500 pieces</span></div>
+    <div class="fact-row"><span class="fact-k">Wholesale Shipping</span><span class="fact-v">Free on every tier</span></div>
+    <div class="fact-row"><span class="fact-k">Dispatch</span><span class="fact-v">Next business day</span></div>
+    <div class="fact-row"><span class="fact-k">Feedback</span><span class="fact-v">2,500+ five-star reviews across channels</span></div>
+    <div class="fact-row"><span class="fact-k">Contact</span><span class="fact-v">sales@jmlenterprises.com</span></div>
+  </div>
+</section>
+
+<!-- CTA -->
+<div class="cta fade-in">
+  <p>"Buying, selling, or shipping us volume? Same inbox, same week."</p>
+  <a href="/#contact">Start a Conversation</a>
+</div>
+
+<div class="wrap tail"></div>
+
+<!-- FOOTER -->
+<footer>
+  <div class="f-logo">JML · Enterprises</div>
+  <nav class="f-nav">
+    <a href="/careers/">Openings</a>
+  </nav>
+  <div class="f-copy">© 2025 JML Enterprises LLC. All rights reserved.</div>
+</footer>
+
+<script>
+  const nav = document.getElementById('nav');
+  window.addEventListener('scroll', () => nav.classList.toggle('scrolled', scrollY > 60));
+
+  const io = new IntersectionObserver((entries) => {
+    entries.forEach((e, i) => {
+      if (e.isIntersecting) {
+        setTimeout(() => e.target.classList.add('visible'), i * 130);
+        io.unobserve(e.target);
+      }
+    });
+  }, { threshold: 0.1 });
+  document.querySelectorAll('.fade-in').forEach(el => io.observe(el));
+</script>
+
+</body>
+</html>
