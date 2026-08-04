@@ -156,6 +156,17 @@
       border-bottom:1px solid var(--border);
     }
 
+    .spec { max-width:660px; margin-top:44px; border-top:1px solid var(--border); }
+    .spec-row {
+      display:flex; justify-content:space-between; align-items:baseline;
+      gap:24px; padding:15px 0; border-bottom:1px solid var(--border);
+    }
+    .spec-k {
+      font-size:9px; letter-spacing:2px; color:var(--faint);
+      text-transform:uppercase; flex:0 0 auto;
+    }
+    .spec-v { font-size:13px; color:var(--muted); text-align:right; }
+
     .rule-list { list-style:none; max-width:660px; }
     .rule-list li {
       position:relative; padding-left:28px; margin-bottom:14px;
@@ -194,6 +205,8 @@
       .nav-location { display:none; }
       .nav-logo { font-size:13px; letter-spacing:3px; }
       .role { padding:120px 28px 0; }
+      .spec-row { flex-direction:column; gap:5px; align-items:flex-start; }
+      .spec-v { text-align:left; }
       .block { padding:52px 28px 0; }
       .colophon { padding:60px 28px 80px; }
       footer { flex-direction:column; gap:16px; text-align:center; padding:28px; }
@@ -235,12 +248,12 @@
     <p>We are looking for someone to run our Instagram on a fixed weekly schedule. Two posts a week. All content is provided. Your job is turning it into finished posts with the right captions, hashtags, and formatting.</p>
   </div>
 
-  <div class="contact-rows" style="max-width:660px;margin-top:44px;">
-    <div class="contact-row"><span class="c-lbl">Brand</span><span class="c-val">AtlantaJake</span></div>
-    <div class="contact-row"><span class="c-lbl">Type</span><span class="c-val">Contract, remote</span></div>
-    <div class="contact-row"><span class="c-lbl">Schedule</span><span class="c-val">Two posts weekly, Monday and Friday</span></div>
-    <div class="contact-row"><span class="c-lbl">Pay</span><span class="c-val">Per post, rates discussed on application</span></div>
-    <div class="contact-row"><span class="c-lbl">Based</span><span class="c-val">Atlanta, GA</span></div>
+  <div class="spec">
+    <div class="spec-row"><span class="spec-k">Brand</span><span class="spec-v">AtlantaJake</span></div>
+    <div class="spec-row"><span class="spec-k">Type</span><span class="spec-v">Contract, remote</span></div>
+    <div class="spec-row"><span class="spec-k">Schedule</span><span class="spec-v">Two posts weekly, Monday and Friday</span></div>
+    <div class="spec-row"><span class="spec-k">Pay</span><span class="spec-v">Per post, rates discussed on application</span></div>
+    <div class="spec-row"><span class="spec-k">Based</span><span class="spec-v">Atlanta, GA</span></div>
   </div>
 </section>
 
