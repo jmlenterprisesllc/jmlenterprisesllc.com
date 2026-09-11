@@ -333,6 +333,13 @@
     .meta-k { font-size:9px; letter-spacing:1.5px; color:var(--faint); text-transform:uppercase; }
     .meta-v { font-size:11px; color:var(--muted); }
 
+    /* Touch devices have no hover, so keep the cards reading as tappable */
+    @media (hover: none) {
+      .brand-card::before { height:100%; }
+      .brand-card { border-color:var(--gold-border); }
+      .brand-glow { opacity:1; }
+    }
+
     /* ── WHOLESALE BAR ── */
     .wholesale {
       background:var(--gold-dim);
@@ -550,7 +557,7 @@
         <div class="meta-row"><span class="meta-k">Website</span><span class="meta-v"><a href="https://www.depop.com/atlantajake/" target="_blank" onclick="event.stopPropagation();" style="color:var(--gold);text-decoration:none;border-bottom:1px solid var(--gold-border);">atlantajake.shop</a></span></div>
       </div>
     </div>
-    <div class="brand-card fade-in">
+    <div class="brand-card fade-in" onclick="window.open('https://www.ebay.com/usr/isellleds','_blank')" style="cursor:pointer;">
       <div class="brand-glow"></div>
       <div class="brand-num">02</div>
       <div class="brand-tag">Automotive · Lighting</div>
@@ -560,7 +567,7 @@
         <div class="meta-row"><span class="meta-k">Category</span><span class="meta-v">Automotive Lighting</span></div>
         <div class="meta-row"><span class="meta-k">Channels</span><span class="meta-v">eBay · Direct Wholesale</span></div>
         <div class="meta-row"><span class="meta-k">Partners</span><span class="meta-v">DLG · Z1 · Sylvania</span></div>
-        <div class="meta-row"><span class="meta-k">Website</span><span class="meta-v"><a href="https://www.ebay.com/usr/isellleds" target="_blank" style="color:var(--gold);text-decoration:none;border-bottom:1px solid var(--gold-border);">isellleds</a></span></div>
+        <div class="meta-row"><span class="meta-k">Website</span><span class="meta-v"><a href="https://www.ebay.com/usr/isellleds" target="_blank" onclick="event.stopPropagation();" style="color:var(--gold);text-decoration:none;border-bottom:1px solid var(--gold-border);">isellleds</a></span></div>
       </div>
     </div>
   </div>
