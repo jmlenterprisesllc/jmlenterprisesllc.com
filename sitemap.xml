@@ -1,109 +1,110 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
-
   <url>
     <loc>https://jmlenterprisesllc.com/</loc>
-    <lastmod>2025-05-19</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>1.0</priority>
+    <lastmod>2026-09-16</lastmod>
   </url>
-
+  <url>
+    <loc>https://jmlenterprisesllc.com/about/</loc>
+    <lastmod>2026-09-11</lastmod>
+  </url>
+  <url>
+    <loc>https://jmlenterprisesllc.com/careers/</loc>
+    <lastmod>2026-09-11</lastmod>
+  </url>
   <url>
     <loc>https://jmlenterprisesllc.com/gallery.html</loc>
-    <lastmod>2025-05-19</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
+    <lastmod>2026-09-16</lastmod>
     <image:image>
       <image:loc>https://jmlenterprisesllc.com/files/atlantajake-atlanta-vintage-streetwear-popup-shop.jpg</image:loc>
-      <image:title>AtlantaJake Atlanta Vintage Streetwear Popup Shop</image:title>
-      <image:caption>AtlantaJake popup — Atlanta, GA. Premium vintage menswear and streetwear.</image:caption>
+      <image:title>AtlantaJake popup — Atlanta, GA</image:title>
+      <image:caption>AtlantaJake popup — Atlanta, GA</image:caption>
     </image:image>
     <image:image>
       <image:loc>https://jmlenterprisesllc.com/files/atlantajake-atlanta-vintage-clothing-popup-market.jpg</image:loc>
-      <image:title>AtlantaJake Atlanta Vintage Clothing Popup Market</image:title>
-      <image:caption>Shoppers at AtlantaJake popup — Atlanta vintage clothing market.</image:caption>
+      <image:title>Shoppers at AtlantaJake popup</image:title>
+      <image:caption>Shoppers at AtlantaJake popup</image:caption>
     </image:image>
     <image:image>
       <image:loc>https://jmlenterprisesllc.com/files/atlanta-vintage-menswear-designer-resale-atlantajake.jpg</image:loc>
-      <image:title>Atlanta Vintage Menswear Designer Resale AtlantaJake</image:title>
-      <image:caption>Atlanta vintage menswear and designer resale — AtlantaJake popup.</image:caption>
+      <image:title>Customers with bags and vintage finds</image:title>
+      <image:caption>Customers with bags and vintage finds</image:caption>
     </image:image>
     <image:image>
       <image:loc>https://jmlenterprisesllc.com/files/atlanta-streetwear-popup-vintage-burberry-atlantajake.jpg</image:loc>
-      <image:title>Atlanta Streetwear Popup Vintage Burberry AtlantaJake</image:title>
-      <image:caption>Atlanta streetwear popup — vintage Burberry at AtlantaJake.</image:caption>
+      <image:title>Atlanta vintage Burberry popup</image:title>
+      <image:caption>Atlanta vintage Burberry popup</image:caption>
     </image:image>
     <image:image>
       <image:loc>https://jmlenterprisesllc.com/files/atlanta-streetwear-popup-shop-atlantajake-designer-bag.jpg</image:loc>
-      <image:title>Atlanta Streetwear Popup Shop AtlantaJake Designer Bag</image:title>
-      <image:caption>Customers with AtlantaJake bags — Westside Paper Atlanta streetwear popup.</image:caption>
+      <image:title>Customers with AtlantaJake bags — Westside Paper</image:title>
+      <image:caption>Customers with AtlantaJake bags — Westside Paper</image:caption>
     </image:image>
     <image:image>
       <image:loc>https://jmlenterprisesllc.com/files/atlantajake-atlanta-vintage-designer-popup.jpg</image:loc>
-      <image:title>AtlantaJake Atlanta Vintage Designer Popup</image:title>
-      <image:caption>Customer at AtlantaJake vintage designer popup — Atlanta, GA.</image:caption>
+      <image:title>Customer Flicked up at AtlantaJake Booth</image:title>
+      <image:caption>Customer Flicked up at AtlantaJake Booth</image:caption>
     </image:image>
     <image:image>
       <image:loc>https://jmlenterprisesllc.com/files/atlanta-vintage-menswear-night-market-atlantajake.jpg</image:loc>
-      <image:title>Atlanta Vintage Menswear Night Market AtlantaJake</image:title>
-      <image:caption>Atlanta vintage menswear night market — AtlantaJake popup.</image:caption>
+      <image:title>Night market — busy booth</image:title>
+      <image:caption>Night market — busy booth</image:caption>
     </image:image>
     <image:image>
       <image:loc>https://jmlenterprisesllc.com/files/atlanta-designer-resale-louis-vuitton-atlantajake-popup.jpg</image:loc>
-      <image:title>Atlanta Designer Resale Louis Vuitton AtlantaJake Popup</image:title>
-      <image:caption>Atlanta designer resale — Louis Vuitton at AtlantaJake popup booth.</image:caption>
+      <image:title>Booth setup — Furry Friends Welcome!</image:title>
+      <image:caption>Booth setup — Furry Friends Welcome!</image:caption>
     </image:image>
     <image:image>
       <image:loc>https://jmlenterprisesllc.com/files/atlantajake-atlanta-vintage-streetwear-designer-bag.jpg</image:loc>
-      <image:title>AtlantaJake Atlanta Vintage Streetwear Designer Bag</image:title>
-      <image:caption>AtlantaJake vintage streetwear designer bag — Atlanta popup.</image:caption>
+      <image:title>AtlantaJake vintage streetwear bag — Atlanta</image:title>
+      <image:caption>AtlantaJake vintage streetwear bag — Atlanta</image:caption>
     </image:image>
     <image:image>
       <image:loc>https://jmlenterprisesllc.com/files/atlanta-vintage-popup-shop-designer-bags-atlantajake.jpg</image:loc>
-      <image:title>Atlanta Vintage Popup Shop Designer Bags AtlantaJake</image:title>
-      <image:caption>Atlanta vintage popup shop — designer bags at AtlantaJake.</image:caption>
+      <image:title>AtlantaJake popup — designer bags Atlanta</image:title>
+      <image:caption>AtlantaJake popup — designer bags Atlanta</image:caption>
     </image:image>
     <image:image>
       <image:loc>https://jmlenterprisesllc.com/files/atlanta-vintage-menswear-thrift-shop-atlantajake.jpg</image:loc>
-      <image:title>Atlanta Vintage Menswear Thrift Shop AtlantaJake</image:title>
-      <image:caption>Atlanta vintage menswear thrift shop — AtlantaJake popup.</image:caption>
+      <image:title>AtlantaJake vintage menswear rack — Atlanta</image:title>
+      <image:caption>AtlantaJake vintage menswear rack — Atlanta</image:caption>
     </image:image>
     <image:image>
       <image:loc>https://jmlenterprisesllc.com/files/atlanta-streetwear-vintage-thrift-popup-atlantajake.jpg</image:loc>
-      <image:title>Atlanta Streetwear Vintage Thrift Popup AtlantaJake</image:title>
-      <image:caption>Atlanta streetwear vintage thrift popup — AtlantaJake.</image:caption>
+      <image:title>Atlanta streetwear vintage popup</image:title>
+      <image:caption>Atlanta streetwear vintage popup</image:caption>
     </image:image>
     <image:image>
       <image:loc>https://jmlenterprisesllc.com/files/atlantajake-atlanta-vintage-outdoor-popup-market.jpg</image:loc>
-      <image:title>AtlantaJake Atlanta Vintage Outdoor Popup Market</image:title>
-      <image:caption>AtlantaJake Atlanta vintage outdoor popup market — open air menswear.</image:caption>
+      <image:title>AtlantaJake popup — open air market</image:title>
+      <image:caption>AtlantaJake popup — open air market</image:caption>
     </image:image>
     <image:image>
       <image:loc>https://jmlenterprisesllc.com/files/atlanta-vintage-clothing-popup-market-atlantajake.jpg</image:loc>
-      <image:title>Atlanta Vintage Clothing Popup Market AtlantaJake</image:title>
-      <image:caption>Atlanta vintage clothing popup market — evening courtyard event.</image:caption>
+      <image:title>Evening popup — Atlanta courtyard</image:title>
+      <image:caption>Evening popup — Atlanta courtyard</image:caption>
     </image:image>
     <image:image>
       <image:loc>https://jmlenterprisesllc.com/files/atlantajake-atlanta-streetwear-popup-brewdog.jpg</image:loc>
-      <image:title>AtlantaJake Atlanta Streetwear Popup Brewdog</image:title>
-      <image:caption>AtlantaJake booth setup at Brewdog Atlanta — streetwear popup.</image:caption>
+      <image:title>AtlantaJake booth setup — Brewdog ATL</image:title>
+      <image:caption>AtlantaJake booth setup — Brewdog ATL</image:caption>
     </image:image>
     <image:image>
       <image:loc>https://jmlenterprisesllc.com/files/atlanta-vintage-streetwear-popup-bags-atlantajake.jpg</image:loc>
-      <image:title>Atlanta Vintage Streetwear Popup Bags AtlantaJake</image:title>
-      <image:caption>Shoppers at AtlantaJake Atlanta vintage streetwear popup.</image:caption>
+      <image:title>Shoppers at AtlantaJake popup Atlanta</image:title>
+      <image:caption>Shoppers at AtlantaJake popup Atlanta</image:caption>
     </image:image>
     <image:image>
       <image:loc>https://jmlenterprisesllc.com/files/atlanta-pre-owned-designer-resale-popup-atlantajake.jpg</image:loc>
-      <image:title>Atlanta Pre-Owned Designer Resale Popup AtlantaJake</image:title>
-      <image:caption>Atlanta pre-owned designer resale popup — AtlantaJake.</image:caption>
+      <image:title>Pre-owned designer resale — AtlantaJake</image:title>
+      <image:caption>Pre-owned designer resale — AtlantaJake</image:caption>
     </image:image>
     <image:image>
       <image:loc>https://jmlenterprisesllc.com/files/atlantajake-westside-paper-atlanta-vintage-popup.jpg</image:loc>
-      <image:title>AtlantaJake Westside Paper Atlanta Vintage Popup</image:title>
-      <image:caption>Customers with AtlantaJake bags at Westside Paper Atlanta vintage popup.</image:caption>
+      <image:title>Customers with AtlantaJake bags — Westside Paper</image:title>
+      <image:caption>Customers with AtlantaJake bags — Westside Paper</image:caption>
     </image:image>
   </url>
-
 </urlset>
